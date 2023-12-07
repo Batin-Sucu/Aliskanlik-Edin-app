@@ -5,12 +5,13 @@
     <color name="white">#FFFFFFFF</color>
     <color name="projearkaplanrengi">#001753</color>
     <color name="kayitrengi">#25F284</color>
-    <color name="solukkayitrengi">#4D25F284</color>
+    <color name="solukkayitrengi">#5725F284</color>
     <color name="onayrengi">#00F227</color>
     <color name="analizrengi">#F7FC00</color>
     <color name="ayarrengi">#725BFF</color>
     <color name="metinrengi">#AFAFAF</color>
     <color name="girinizrengi">#707070</color>
+    <color name="isimgir">#80707070</color>
     <color name="periyotrengi">#D9D9D9</color>
     <color name="silrengi">#FF3737</color>
 </resources>
