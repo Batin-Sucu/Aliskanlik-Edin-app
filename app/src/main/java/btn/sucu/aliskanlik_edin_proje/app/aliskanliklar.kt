@@ -91,8 +91,8 @@ class   aliskanliklar : AppCompatActivity() {
         }
 
         override fun onBindViewHolder(holder: RVViewHolder, position: Int, model: aliskanlik) {
-            holder.aliskanlikIsim.text = model.isim
-            holder.aliskanlikAciklama.text = model.metin
+            holder.aliskanlikAciklama.text = model.isim
+            holder.aliskanlikIsim.text = model.metin
             //holder.aliskanlikIsim.text = model.isim
             holder.aliskanlikSayi.text = model.kere.toString()
 

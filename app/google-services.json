@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "716593665409",
+    "project_id": "aliskanlik-edin",
+    "storage_bucket": "aliskanlik-edin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716593665409:android:3c9dc0e2f1887ea6eb4480",
+        "android_client_info": {
+          "package_name": "btn.sucu.aliskanlik_edin_proje.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABcNZNU9eutq7Bw7QBIevil46uPP94j7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
