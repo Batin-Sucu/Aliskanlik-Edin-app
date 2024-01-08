@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/aliskanlik_isim"
+        android:layout_width="370dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/isimgir"
+        android:paddingLeft="20dp"
+        android:text="İsim :"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aliskanlik_aciklama" />
+
+    <TextView
+        android:id="@+id/aliskanlik_aciklama"
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/isimgoster"
+        android:paddingLeft="20dp"
+        android:text="İsim :"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/aliskanlik_sayi"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aliskanlik_isim" />
+
+    <ImageButton
+        android:id="@+id/aliskanlikdegis"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/butongoster2"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aliskanlik_sayi"
+        app:srcCompat="@drawable/baseline_settings_24" />
+
+    <ImageButton
+        android:id="@+id/aliskanlik_artir"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/butongoster"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aliskanlik_sayi"
+        app:srcCompat="@drawable/baseline_check_24_2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,7 +8,7 @@
     android:background="@color/projearkaplanrengi">
 
     <ImageButton
-        android:id="@+id/btn_geri3"
+        android:id="@+id/tamam"
         android:layout_width="112dp"
         android:layout_height="66dp"
         android:layout_alignParentStart="true"

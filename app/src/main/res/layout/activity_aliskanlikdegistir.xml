@@ -7,6 +7,29 @@
     tools:context=".MainActivity"
     android:background="@color/projearkaplanrengi">
 
+
+    <TextView
+        android:id="@+id/aliskanlik_degistirdekisayi"
+        android:layout_width="54dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="104dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/aliskanlik_olusturma"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="140dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageButton
         android:id="@+id/sil"
         android:layout_width="112dp"
